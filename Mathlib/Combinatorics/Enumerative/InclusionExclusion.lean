@@ -36,12 +36,10 @@ Per the above explanation, this file contains the following variants of inclusio
 * `Finset.inclusion_exclusion_card_inf_compl`: Cardinality of a finite intersection of
   complements of sets
 
-See also `MeasureTheory.integral_biUnion_eq_sum_powerset` for the version with integrals, and
-`MeasureTheory.measureReal_biUnion_eq_sum_powerset` for the version with measures.
-
-## TODO
-
-* Prove that truncating the series alternatively gives an upper/lower bound to the true value.
+See also `MeasureTheory.integral_biUnion_eq_sum_powerset` for the version with integrals,
+`MeasureTheory.measureReal_biUnion_eq_sum_powerset` for the version with measures, and
+`Mathlib.Combinatorics.Enumerative.Bonferroni` for the alternating bounds obtained by truncating
+the series (Bonferroni inequalities).
 -/
 
 public section
